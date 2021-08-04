@@ -6,4 +6,4 @@ Separated by spaces, pass the passwords to check as command line arguments.
 The output for each password will be printed out to the console.
 
 ## Dependencies
-- [requests](https://pypi.org/project/requests/).
+- [Requests](https://pypi.org/project/requests/).
