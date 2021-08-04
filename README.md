@@ -1,2 +1,9 @@
 # Password Checker  
-Script to check if a password has been hacked.
+Script to check if your passwords have been hacked.  
+
+## How To Use
+Separated by spaces, pass the passwords to check as command line arguments.  
+The output for each password will be printed out to the console.
+
+## Dependencies
+- [requests](https://pypi.org/project/requests/).
