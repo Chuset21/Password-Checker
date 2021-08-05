@@ -29,7 +29,7 @@ def pwned_api_check(password: str) -> int:
     return get_password_leaks_count(response, tail)
 
 
-def check_passwords(passwords) -> None:
+def check_passwords(passwords: list[str]) -> None:
     for password in passwords:
         count = pwned_api_check(password)
         if count:
